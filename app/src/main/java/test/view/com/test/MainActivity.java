@@ -24,6 +24,7 @@ import test.view.com.test.fragment.FragmentThree;
 import test.view.com.test.fragment.FragmentTwo;
 
 public class MainActivity extends BaseActivity {
+    private static final String TAG = "MainActivity";
     private BaseFragmentPagerAdapter adapter;
     private List<Fragment> fragments;
     private TextView tvtiltle;
